@@ -1,15 +1,16 @@
 {
   "name": "clickup-extension",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Clickup Extension (unofficial)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "webpack",
     "build": "webpack --mode=production"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Takahiro Motoyama",
+    "email": "moooochan0314@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "rxjs": "^6.5.2"
   },
@@ -25,5 +26,6 @@
     "typescript": "^3.4.5",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2"
-  }
+  },
+  "private" : true
 }
